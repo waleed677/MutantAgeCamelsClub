@@ -128,13 +128,13 @@ const Navbar = () => {
               </MobileIcon>
 
              
-                <StyledButton 
+                {/* <StyledButton 
                   onClick={(e) => {
                           e.preventDefault();
                           dispatch(connect());
                           getData();
                         }}
-                  >CONNECT</StyledButton>
+                  >CONNECT</StyledButton> */}
               
              
           </NavContainer>
