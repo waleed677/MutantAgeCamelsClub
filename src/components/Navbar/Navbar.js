@@ -111,7 +111,7 @@ const Navbar = () => {
                   <NavLink to="roadmap" spy={true} smooth={true} offset={-80} duration={500}>Docs</NavLink> 
                 </NavItems>
                
-                <NavItems>
+                {/* <NavItems>
                 <StyledButtonMobile 
                   onClick={(e) => {
                           e.preventDefault();
@@ -119,7 +119,7 @@ const Navbar = () => {
                           getData();
                         }}
                   >CONNECT</StyledButtonMobile>
-                </NavItems>
+                </NavItems> */}
                
               </NavMenu>
             
