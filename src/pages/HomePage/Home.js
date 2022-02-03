@@ -203,7 +203,7 @@ function Home() {
                   Excluding gas fees.{" "}
                 </s.TextDescription>{" "}
                 <s.SpacerSmall />{" "}
-                {/* {blockchain.account === "" ||
+                {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
                     <s.TextDescription
@@ -268,7 +268,7 @@ function Home() {
                       </StyledButton>{" "}
                     </s.Container>{" "}
                   </>
-                )}{" "} */}
+                )}{" "}
               </>
             )}{" "}
             <s.SpacerMedium />

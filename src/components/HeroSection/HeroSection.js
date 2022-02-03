@@ -16,11 +16,11 @@ function HeroSection() {
                 <HeroContent>
                     <HeroH1>Will you be part of Mutant Age Camels Club?</HeroH1>
                     <HeroP>Mint Our Mutant Age Camels Club Nft's to get Rewards</HeroP>
-                    <HeroBtnWrapper>
+                    {/* <HeroBtnWrapper>
                         <Button to="about" spy={true} smooth={true} offset={-80} duration={500} onMouseEnter={onHover} onMouseLeave={onHover}>
                             Mint
                         </Button>
-                    </HeroBtnWrapper>
+                    </HeroBtnWrapper> */}
                 </HeroContent>
            </HeroContainer> 
         </>

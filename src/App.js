@@ -20,8 +20,6 @@ const theme = {
 
 
 function App() {
- 
-
   return (
 
     <s.Body theme={theme}>
