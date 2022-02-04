@@ -49,7 +49,7 @@ export const Container = styled.div`
   width: ${({ wid }) => (wid ? wid+"%" : "100%")};
 
   @media screen and (max-width: 768px) {
-    margin-top: -30vh !important;
+    ${'' /* margin-top: -2vh !important; */}
   }
   
 `;
@@ -72,6 +72,10 @@ export const TextDescription = styled.p`
   font-size: 16px;
   line-height: 1.6;
   font-family: 'cocogoose';
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0 ;
+  }
 `;
 
 export const StyledClickable = styled.div`

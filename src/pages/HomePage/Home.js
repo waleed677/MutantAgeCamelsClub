@@ -130,7 +130,7 @@ function Home() {
             style={{
               position: "relative",
               zIndex: "1",
-              marginTop: "-60vh",
+              marginTop: "-50vh",
             }}
           >
           
@@ -246,6 +246,7 @@ function Home() {
                       style={{
                         textAlign: "center",
                         color: "var(--accent-text)",
+                        
                       }}
                     >
                       {" "}
