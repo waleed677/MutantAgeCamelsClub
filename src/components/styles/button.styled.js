@@ -8,7 +8,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   font-family: 'cocogoose';
   color:#000;
-  width: 110px;
+  width: 200px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);

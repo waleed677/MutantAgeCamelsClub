@@ -24,7 +24,7 @@ function Home() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint your NFT. Max limit 1.`);
+  const [feedback, setFeedback] = useState(`Minting your MACC NFT. Max limit 1.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -223,7 +223,7 @@ function Home() {
                         getData();
                       }}
                     >
-                      CONNECT{" "}
+                      CONNECT WALLET{" "}
                     </StyledButton>{" "}
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -264,7 +264,7 @@ function Home() {
                         }}
                       >
                         {" "}
-                        {claimingNft ? "BUSY" : "BUY"}{" "}
+                        {claimingNft ? "Confirm Transaction in Wallet" : "Mint"}{" "}
                       </StyledButton>{" "}
                     </s.Container>{" "}
                   </>
