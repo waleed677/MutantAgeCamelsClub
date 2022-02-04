@@ -87,9 +87,9 @@ function Home() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    // if (newMintAmount > 1) {
-    //   newMintAmount = 1;
-    // }
+    if (newMintAmount > 15) {
+      newMintAmount = 15;
+    }
     setMintAmount(newMintAmount);
   };
 

@@ -92,6 +92,14 @@ const Navbar = () => {
     const toggleHome = () => {
       scroll.scrollToTop();
     }
+
+    const homeLink = () =>{
+      window.location.replace("https://mutantagecamelclub.io/")
+    }
+
+    const openSea = () =>{
+      window.location.replace("https://mutantagecamelclub.io/")
+    }
     return (
         <>
 
@@ -102,10 +110,10 @@ const Navbar = () => {
             </NavLink>
           <NavMenu onClick={handleClick} click={click}>
               <NavItems>
-                  <NavLink to='facebook.com' spy={true} smooth={true} offset={-80} duration={500}>Home</NavLink> 
+                  <NavLink onClick={homeLink} spy={true} smooth={true} offset={-80} duration={500}>Home</NavLink> 
                 </NavItems>
                 <NavItems>
-                  <NavLink to='mission' spy={true} smooth={true} offset={-80} duration={500}>Opensea</NavLink> 
+                  <NavLink onClick={openSea} spy={true} smooth={true} offset={-80} duration={500}>Opensea</NavLink> 
                 </NavItems>
         
                
