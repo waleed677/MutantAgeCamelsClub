@@ -7,7 +7,7 @@ export const ButtonWithIcon = styled.button`
     background-color: ${({ bg }) => (bg ? bg : "var(--secondary)")};
     color:#fff;
    
-    font-family: 'Roboto', sans-serif;
+    font-family: 'cocogoose';
     font-size: 1em;
     padding: 10px;
     border-radius: 5px;

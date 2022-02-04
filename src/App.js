@@ -9,6 +9,7 @@ import Footer from "./components/Footer/footer";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import * as s from "./styles/globalStyles";
 import Home from "./pages/HomePage/Home";
+import Fonts from "./styles/fontStyles";
 
 const theme = {
   colors: {
@@ -23,6 +24,7 @@ function App() {
   return (
 
     <s.Body theme={theme}>
+    <Fonts/>
       <Router>
         <Home/>
       </Router>

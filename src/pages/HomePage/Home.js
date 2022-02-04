@@ -184,7 +184,7 @@ function Home() {
               </>
             ) : (
               <>
-                <s.TextTitle
+                {/* <s.TextTitle
                   style={{
                     textAlign: "center",
                     color: "var(--accent-text)",
@@ -192,16 +192,16 @@ function Home() {
                 >
                   1 Nft
                   costs {CONFIG.DISPLAY_COST} {CONFIG.NETWORK.SYMBOL}.{" "}
-                </s.TextTitle>{" "}
+                </s.TextTitle>{" "} */}
                 <s.SpacerXSmall />
-                <s.TextDescription
+                {/* <s.TextDescription
                   style={{
                     textAlign: "center",
                     color: "var(--accent-text)",
                   }}
                 >
                   Excluding gas fees.{" "}
-                </s.TextDescription>{" "}
+                </s.TextDescription>{" "} */}
                 <s.SpacerSmall />{" "}
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (

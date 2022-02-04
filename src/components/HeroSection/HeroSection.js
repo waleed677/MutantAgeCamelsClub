@@ -14,8 +14,8 @@ function HeroSection() {
                     <ImageBg src={"config/images/bg.jpg"} />
                 </HeroBg>
                 <HeroContent>
-                    <HeroH1>Will you be part of Mutant Age Camels Club?</HeroH1>
-                    <HeroP>Mint Our Mutant Age Camels Club Nft's to get Rewards</HeroP>
+                    <HeroH1>Official Mutant Age Camel Club Mint Page</HeroH1>
+                    <HeroP>Mint your Official Mutant Age Camel Club NFT Below  </HeroP>
                     {/* <HeroBtnWrapper>
                         <Button to="about" spy={true} smooth={true} offset={-80} duration={500} onMouseEnter={onHover} onMouseLeave={onHover}>
                             Mint

@@ -53,12 +53,14 @@ export const HeroContent = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
+    
 `;
 
 export const HeroH1 = styled.h1`
     font-size:48px;
     color:#fff;
     text-align:center;
+    font-family: 'cocogoose';
     @media screen and (max-width: 768px) {
         font-size:40px;
     }
@@ -69,10 +71,11 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
     margin-top:24px;
-    font-size:22px;
+    font-size:1.2rem;
     color:#fff;
     text-align:center;
     max-width:600px;
+    font-family: 'cocogoose';
 
     @media screen and (max-width: 768px) {
         font-size:18px;
