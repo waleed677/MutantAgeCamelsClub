@@ -98,7 +98,7 @@ const Navbar = () => {
     }
 
     const openSea = () =>{
-      window.location.replace("https://mutantagecamelclub.io/")
+      window.location.replace("https://opensea.io/collection/mutant-age-camel-club")
     }
     return (
         <>
