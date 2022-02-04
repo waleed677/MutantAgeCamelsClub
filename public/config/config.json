@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xF200b21027f0D989cf8DDE3Cb52939ad51Aaf879",
-  "SCAN_LINK": "https://etherscan.io/address/0xe5e32dd35bea58a33af599b1cdb469ce06ec1b60",
+  "CONTRACT_ADDRESS": "0xee77b16200014161d4abf857a37e7ac7e265c84d",
+  "SCAN_LINK": "https://etherscan.io/address/0xee77b16200014161d4abf857a37e7ac7e265c84d",
   "NETWORK": {
-    "NAME": "Rinkby",
+    "NAME": "Ethereum ",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
-  "NFT_NAME": "The Camel 2",
-  "SYMBOL": "TheCamel",
-  "MAX_SUPPLY": 100,
-  "WEI_COST": 100000000000000000,
-  "DISPLAY_COST": 0.1,
+  "NFT_NAME": "MACC NFT",
+  "SYMBOL": "MACC",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 80000000000000000,
+  "DISPLAY_COST": 0.08,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/the-camel-2",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/mutant-age-camel-club",
   "SHOW_BACKGROUND": true
 }

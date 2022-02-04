@@ -184,7 +184,7 @@ function Home() {
               </>
             ) : (
               <>
-                {/* <s.TextTitle
+                <s.TextTitle
                   style={{
                     textAlign: "center",
                     color: "var(--accent-text)",
@@ -192,7 +192,7 @@ function Home() {
                 >
                   1 Nft
                   costs {CONFIG.DISPLAY_COST} {CONFIG.NETWORK.SYMBOL}.{" "}
-                </s.TextTitle>{" "} */}
+                </s.TextTitle>{" "}
                 <s.SpacerXSmall />
                 {/* <s.TextDescription
                   style={{
