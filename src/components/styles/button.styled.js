@@ -5,10 +5,10 @@ export const StyledButton = styled.button`
   border-radius: 50px;
   border: none;
   background-color: var(--secondary);
-  padding: 10px;
+  padding: 10px 30px;
   font-family: 'cocogoose';
   color:#000;
-  width: 200px;
+  width: auto;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);

@@ -102,14 +102,12 @@ const Navbar = () => {
             </NavLink>
           <NavMenu onClick={handleClick} click={click}>
               <NavItems>
-                  <NavLink to='about' spy={true} smooth={true} offset={-80} duration={500}>Opensea</NavLink> 
+                  <NavLink to='facebook.com' spy={true} smooth={true} offset={-80} duration={500}>Home</NavLink> 
                 </NavItems>
                 <NavItems>
-                  <NavLink to='mission' spy={true} smooth={true} offset={-80} duration={500}>Forum</NavLink> 
+                  <NavLink to='mission' spy={true} smooth={true} offset={-80} duration={500}>Opensea</NavLink> 
                 </NavItems>
-                <NavItems>
-                  <NavLink to="roadmap" spy={true} smooth={true} offset={-80} duration={500}>Docs</NavLink> 
-                </NavItems>
+        
                
                 {/* <NavItems>
                 <StyledButtonMobile 
